@@ -16,11 +16,23 @@ int main() {
 
     while (t--) {
 
-        int a, b;
-        cin >> a >> b;
+        int n;
+        cin >> n;
 
-        int g = gcd(a,b);
-        cout << a*b/g << '\n';
+        int a[111];
+        for(int i=0; i<n; i++){
+            cin >> a[i];
+        }
+
+        long long sum=0;
+        for(int i=0; i<n-1; i++){
+            for(int j=i+1; j<n; j++){
+                int g = gcd(a[i],a[j]);
+                sum += g;
+            }
+        }
+
+        cout << sum << '\n';
     }
     
     return 0;
