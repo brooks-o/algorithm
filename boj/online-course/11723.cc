@@ -18,6 +18,7 @@ int main()
     {
         scanf("%s", b);
         scanf("%d", &x);
+        
         x--;
 
         if (!strcmp(b, "add"))
