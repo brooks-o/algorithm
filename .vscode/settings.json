@@ -4,6 +4,7 @@
         "algorithm": "cpp",
         "iostream": "cpp",
         "cstring": "cpp",
-        "cstdio": "cpp"
+        "cstdio": "cpp",
+        "tuple": "cpp"
     }
 }
