@@ -35,8 +35,9 @@ void go(int index, int selected, int &n, int &m)
 int main()
 {
     // 조건
-    // 1부터 N까지 자연수 중에서 중복 없이 M개를 고른 수열
-    // 고른 수열은 오름차순이어야 한다.
+    // 1부터 N까지 자연수 중에서 "중복 없이" M개를 고른 수열
+    // 고른 수열은 "오름차순"이어야 한다. 
+     
     int n, m;
     cin >> n >> m;
     go(1, 0, n, m);
