@@ -41,7 +41,8 @@ void go(int index, int &n, int &m)
 
 int main()
 {
-    // 1부터 n까지의 수열을 나열한 뒤 m개 만큼 뽑음
+    // 조건
+    // 1부터 N까지 자연수 중에서 중복 없이 M개를 고른 수열
     int n, m;
     cin >> n >> m;
     go(0, n, m);
